@@ -1,0 +1,17 @@
+{
+  "name": "calendario2027novo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pack de 100 modelos digitais de calendário de mesa 2027 prontos para impressão em alta resolução.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static site ready'"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "serverless-http": "^4.0.0"
+  }
+}

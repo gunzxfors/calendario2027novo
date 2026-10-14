@@ -1,0 +1,7 @@
+{
+  "name": "Pack Calendário de Mesa 2027",
+  "description": "Pack de 100 modelos digitais de calendário de mesa 2027 prontos para impressão em alta resolução.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

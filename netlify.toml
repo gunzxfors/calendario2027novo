@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Redirecionamentos para Netlify Functions
+[[redirects]]
+  from = "/api/orders/pix"
+  to = "/.netlify/functions/create-pix"
+  status = 200
+
+[[redirects]]
+  from = "/api/orders/:id/status"
+  to = "/.netlify/functions/order-status"
+  status = 200
+
+[[redirects]]
+  from = "/api/webhooks/pagarme"
+  to = "/.netlify/functions/pagarme-webhook"
+  status = 200
+
+# Roteamento SPA padrão
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
